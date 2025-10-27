@@ -1,0 +1,16 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# NuGet
+packages/
+project.lock.json
+
+# 操作系统
+Thumbs.db
+.DS_Store
