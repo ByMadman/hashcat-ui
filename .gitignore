@@ -10,7 +10,29 @@ obj/
 # NuGet
 packages/
 project.lock.json
+*.nupkg
+
+# WPF
+*.xaml.cs
+*.xaml
 
 # 操作系统
 Thumbs.db
 .DS_Store
+
+# 编译输出
+Debug/
+Release/
+
+# 日志文件
+*.log
+
+# 测试结果
+TestResults/
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
